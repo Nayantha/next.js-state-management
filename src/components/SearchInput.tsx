@@ -14,6 +14,7 @@ const SearchInput = () =>{
                 // @ts-ignore
                    onChange={(e) => dispatch(setSearch(e.target.value))}
             />
+            <div>{search}</div>
         </div>
     )
 }
