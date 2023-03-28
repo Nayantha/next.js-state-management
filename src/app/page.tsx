@@ -1,4 +1,4 @@
-import SSRUserTable from "@/components/SSRUserTable";
+import SearchInput from "@/components/SearchInput";
 import { store } from "@/store"
 import { setStartupUser } from "@/store/searchSlice"
 export default async function Home() {
@@ -7,7 +7,7 @@ export default async function Home() {
   store.dispatch(setStartupUser(data))
   return (
       <main>
-          <SSRUserTable/>
+          <SearchInput/>
       </main>
   );
 }
