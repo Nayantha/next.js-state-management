@@ -11,7 +11,7 @@ const initialState: SearchState = {
     startupUser: [],
 }
 const searchSlice = createSlice({
-    name: "",
+    name: "search",
     initialState,
     reducers: {
         setSearch: (state, action: PayloadAction<string>) => {
