@@ -22,5 +22,5 @@ const searchSlice = createSlice({
         }
     },
 })
-export const {setSearch, setStartupUser } = searchSlice.actions
+export const { setSearch, setStartupUser } = searchSlice.actions
 export default searchSlice.reducer
