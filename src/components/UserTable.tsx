@@ -4,7 +4,9 @@ const UserTable = ({users}: { users: User[] }) => {
     return (
         <table>
             <thead>
-                <th>name</th>
+            <tr>
+                <th>Name</th>
+            </tr>
             </thead>
             <tbody>
             {users.map((user) => (
